@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Medical images & datasets
+*.jpg
+*.jpeg
+*.png
+*.dcm
+*.nii
+*.nii.gz
+
+# Data & outputs
+data/
+results/
+
+# Virtual environments
+venv/
+.env
+.ipynb_checkpoints/
