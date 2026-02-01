@@ -194,7 +194,7 @@ def noiseRemoval(name):
     plt.gray()
 
     plt.imshow(im)
-    plt.title("original")
+    plt.title("Salt-and-pepper noise image")
     plt.show()  
 
     length = 10

@@ -222,3 +222,4 @@ plt.subplot(1, 3, 3)
 pred=model.predict(np.expand_dims(X_val[i], axis=0),verbose=1)[0]
 pred = (pred > 0.5) # binarize
 plt.imshow(pred,cmap="gray")
+
