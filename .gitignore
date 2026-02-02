@@ -3,16 +3,12 @@ __pycache__/
 *.pyc
 
 # Medical images & datasets
-*.jpg
-*.jpeg
-*.png
 *.dcm
 *.nii
 *.nii.gz
 
 # Data & outputs
 data/
-results/
 
 # Virtual environments
 venv/
